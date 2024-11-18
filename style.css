@@ -100,13 +100,19 @@ li {
     border-radius:50%;
     background:#8080802b;
 
+    cursor: pointer;
   }
-
+  #home-page-arrow-down-container:hover, #home-page-arrow-down-container:focus {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
 }
 
-
-
-main {}
+main {
+ display:flex;
+ flex-direction:column;
+ justify-content:start;
+ align-items:center;
+}
 
 section {
   height: 100vh;
